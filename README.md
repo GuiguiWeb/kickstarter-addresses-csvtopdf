@@ -1,6 +1,7 @@
-# Kickstarter : Backers addresses PDF
-PDF Generator from Backer csv export
-NB: 1 address per page, feel free to modify
+# Kickstarter - backers addresses to PDF
+**PDF Generator from backers csv export**
+
+⚠️ 1 address per page and script still in progress, feel free to modify and improve
 
 ## Quickstart
 
