@@ -41,7 +41,7 @@ class KickstarterPDF():
         h1 { font-family: Lucida Console }''', font_config=font_config)
 
     def render(self, body):
-        HTML(string=body).write_pdf('result/addresses.pdf', stylesheets=[self.css], font_config=self.font_config)
+        HTML(string=body).write_pdf('addresses.pdf', stylesheets=[self.css], font_config=self.font_config)
 
 body = ''
 with open('assets/csv-sample.csv', newline='') as csvfile:
